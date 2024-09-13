@@ -193,7 +193,7 @@ if __name__ == '__main__':
 				f.close()
 				continue
 
-			now = datetime.datetime.utcnow()
+			now = datetime.datetime.now(datetime.UTC)
 			date_now = now.strftime("%d%m%y")
 			time_now = now.strftime("%H%M%S")
 

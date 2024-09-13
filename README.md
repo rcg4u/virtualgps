@@ -11,7 +11,7 @@ OR
 
 Setup system-wide service:
 ```
-sudo cp virtualgps.py /usr/bin/
+sudo cp virtualgps.py /usr/local/bin/
 sudo cp virtualgps.service /etc/systemd/system/
 sudo systemctl enable virtualgps.service
 sudo systemctl start virtualgps.service
